@@ -8,6 +8,9 @@ import { Task5Component } from './task-5/task-5.component';
 import { Task6Component } from './task-6/task-6.component';
 import { Task8Component } from './task-8/task-8.component';
 import { Task9Component } from './task-9/task-9.component';
+import { Task10Component } from './task-10/task-10.component';
+import { Task11Component } from './task-11/task-11.component';
+import { Task12Component } from './task-12/task-12.component';
 
 export const routes: Routes = [
   { path: 'task-1', component: Task1Component },
@@ -18,5 +21,8 @@ export const routes: Routes = [
   { path: 'task-6', component: Task6Component },
   { path: 'task-8', component: Task8Component },
   { path: 'task-9', component: Task9Component },
+  { path: 'task-10', component: Task10Component },
+  { path: 'task-11', component: Task11Component },
+  { path: 'task-12', component: Task12Component },
   { path: '', component: DashboardComponent },
 ];

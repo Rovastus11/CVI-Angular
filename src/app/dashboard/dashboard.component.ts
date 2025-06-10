@@ -25,7 +25,7 @@ export class DashboardComponent {
   private createRoutes(): { name: string; route: string }[] {
     const routes: { name: string; route: string }[] = [];
 
-    for (let i = 0; i <= 8; i++) {
+    for (let i = 0; i <= 11; i++) {
       routes.push({ name: `Task ${i + 1}`, route: `/task-${i + 1}` });
     }
 
